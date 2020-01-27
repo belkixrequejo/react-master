@@ -4,9 +4,9 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/DenisCabezaV/api-react-app.git"
+    "url": "https://github.com/belkixrequejo/api-master"
   },
-  "author": "Denis Cabeza Valencia",
+  "author": "Belkix Requejo Micolta",
   "dependencies": {
     "axios": "^0.18.0",
     "bootstrap": "^4.1.3",
