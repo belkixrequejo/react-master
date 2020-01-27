@@ -10,7 +10,7 @@ export default class RA extends Component {
       this.state = {business: []};
     }
     componentDidMount(){
-      axios.get('https://api.alexkbza.com/class')
+      axios.get('http://64.225.114.196:83/class')
         .then(response => {
           this.setState({ business: response.data});
         })
