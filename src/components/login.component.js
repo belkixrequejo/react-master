@@ -31,7 +31,7 @@ export default class Login extends Component {
 
     handleSubmit = event => {
         event.preventDefault();
-        axios.get('http://64.225.114.196:83/usuarios/'+this.state.cedula)
+        axios.get('https://api.alexkbza.com/usuarios/'+this.state.cedula)
             .then(response => {
                 this.setState({ business: response.data});
                 if((this.state.cedula == response.data.cedula) && (this.state.password == response.data.pass)){
